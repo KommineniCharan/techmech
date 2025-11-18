@@ -1471,3 +1471,12 @@ function googleTranslateElementInit() {
 <script defer src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
 
  <script async defer src="https://backend.livhousing.com/bot/create-script-tag?token=655c47bf-1b77-474a-88db-3e0493233170" type="application/javascript"></script>
+
+
+
+ <?php
+// flush buffer and let the callback optimize the output
+if (ob_get_level()) {
+    ob_end_flush();
+}
+?>

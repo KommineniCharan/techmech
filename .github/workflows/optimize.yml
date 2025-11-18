@@ -51,22 +51,6 @@ jobs:
         run: node js/convert-webp.js
 
       # -------------------------
-      # MINIFY CSS AND JS
-      # -------------------------
-
-      - name: Minify CSS
-        run: |
-          find optimized/css -name "*.css" -type f | while read file; do
-            cleancss -o "$file" "$file"
-          done
-
-      - name: Minify JS
-        run: |
-          find optimized/js -name "*.js" -type f | while read file; do
-            terser "$file" -o "$file"
-          done
-
-      # -------------------------
       # GZIP ASSETS
       # -------------------------
       - name: Gzip CSS and JS

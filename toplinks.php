@@ -1,3 +1,11 @@
+
+<?php
+require_once __DIR__ . '/optimize-output.php'; // adjust path if needed
+// start buffering and use the callback
+ob_start('optimize_output_callback');
+?>
+
+
  <!-- Google Tag Manager - Already optimized with async -->
 <script>
 (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
