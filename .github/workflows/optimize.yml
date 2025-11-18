@@ -117,7 +117,7 @@ jobs:
           echo "- Total size: $(du -sh . | cut -f1)" >> optimization-report.md
 
       - name: Configure git to use GITHUB_TOKEN
-        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/KommineniCharan/emnar.git
+        run: git remote set-url origin https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/KommineniCharan/techmech.git
 
       - name: Commit and push optimized files
         run: |
