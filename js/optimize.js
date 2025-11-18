@@ -68,7 +68,7 @@ async function processCssFiles() {
         /^navbar(-.*)?$/,
         /^d-(sm|md|lg|xl|xxl)?-(flex|block|none)$/,
         /^show$/,
-        /^fade$/,
+        /^fade$/, 
         /^active$/,
         /^carousel(-.*)?$/,
       ],
