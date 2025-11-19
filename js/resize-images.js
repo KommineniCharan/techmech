@@ -3,7 +3,7 @@ const fs = require("fs");
 const path = require("path");
 const glob = require("glob");
 
-const sizes = [320, 640, 1024, 1920];
+const sizes = [320, 480, 640, 768, 1024, 1280, 1920];
 
 // Get absolute path to the current project directory
 const projectRoot = path.resolve(".");
