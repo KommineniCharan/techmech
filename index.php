@@ -79,13 +79,9 @@ gtag('config', 'AW-11021158716');
 "telephone": "9440247110",
 
 "contactType": "customer service",
-
 "contactOption": "TollFree",
-
 "areaServed": "IN",
-
 "availableLanguage": ["en","Hindi","Telugu"]
-
 },
 
 "sameAs": [

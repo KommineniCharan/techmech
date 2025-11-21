@@ -2,7 +2,7 @@ const fs = require("fs");
 const path = require("path");
 const cheerio = require("cheerio");
 
-const sizes = [320, 640, 1024, 1920];
+const sizes = [320, 480, 640, 768,1024, 1280, 1920];
 
 function processHTMLorPHP(filePath) {
   let html = fs.readFileSync(filePath, "utf8");
